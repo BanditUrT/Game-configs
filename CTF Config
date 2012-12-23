@@ -73,4 +73,4 @@ seta g_WaveRespawns                 "0"
 seta g_hotpotato                    "0"
 //Exectution Confirmation 
 // 
-bigtext "^1FSGL ^7TS Config v.1 loaded!"
+bigtext "^1FSGL ^7CTF Config v.1 loaded!"
