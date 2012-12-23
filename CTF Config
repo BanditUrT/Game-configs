@@ -1,0 +1,76 @@
+//VISUAL Identifiers 
+// 
+set sv_hostname "FSgl Competition Server" 
+set sv_joinmessage "^7** ^1FS Config Version 1 12/23/2012 ^7**" 
+// 
+//Server Setup 
+// 
+seta sv_battleye "0" 
+set sv_floodprotect "0" 
+seta sv_cheats "0" 
+seta sv_pure "1" 
+seta sv_maxPing "170" 
+seta sv_minPing "0" 
+seta sv_allowdownload "1" 
+seta g_gravity "800" 
+seta g_knockback "1000" 
+seta g_syncronousClients "0" 
+seta g_bulletPredictionThreshold "5" 
+seta pmove_fixed "1" 
+seta pmove_msec "8" 
+seta sv_timeout "120" 
+seta timescale "1" 
+seta sv_reconnectlimit "0" 
+seta sv_maxrate "25000" 
+seta sv_minrate "16384" 
+seta g_log "FSGL.log" 
+seta g_logsync "0" 
+seta g_logroll "0" 
+seta logfile "3" 
+sv_dlurl "ut.s.finestway.com" 
+//
+//Organizational settings 
+// 
+seta g_allowChat "2" 
+seta g_allowVote "255" 
+seta g_failedVoteTime "30" 
+seta g_timeouts "2" 
+seta g_timeoutlength "180" 
+seta g_matchmode "1" 
+seta g_pauselength "-1" 
+seta g_teamForceBalance "0" 
+seta g_maintainTeam "1" 
+seta g_teamautojoin "0" 
+seta g_inactivity "0" 
+seta g_maxgameclients "14" 
+seta g_maxteamkills "0" 
+// 
+//Gameplay Settings 
+// 
+seta fraglimit "0" 
+seta g_doWarmup "1" 
+seta g_warmup "15" 
+seta g_friendlyfire "2" 
+seta g_removeBodyTime "10" 
+seta g_enablePrecip "0" 
+seta g_respawnprotection "2" 
+seta g_antiwarp "1" 
+seta g_antiwarptol "50" 
+seta g_healthreports "1" 
+seta g_followstrict "1" 
+seta g_deadchat "2" 
+seta g_gear "0" 
+seta g_armbands "0" 
+seta sv_privateclients "0" 
+seta bot_enable "0" 
+// 
+//CTF Specific Settings
+//
+seta capturelimit                   "0"
+seta g_flagReturnTime              "30"  
+seta g_respawnDelay                "14"  
+seta g_WaveRespawns                 "0"  
+seta g_hotpotato                    "0"
+//Exectution Confirmation 
+// 
+bigtext "^1FSGL ^7TS Config v.1 loaded!"
